@@ -1,0 +1,28 @@
+# Ignore artifacts:
+build
+coverage
+
+# Ignore all HTML files:
+**/*.html
+
+**/.git
+**/.svn
+**/.hg
+
+README.md
+
+/.vscode
+/node_modules
+./dist
+
+*.env
+.env
+.env.*
+
+.editorconfig
+.eslintignore
+.gitattributes
+.gitignore
+.gitkeep
+*.ejs
+*.snap
