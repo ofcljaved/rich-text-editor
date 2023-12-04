@@ -1,8 +1,10 @@
+import { TextInput } from "./components";
+
 function App() {
   return (
-    <>
-      <h1 className="text-xl text-gray-700 text-center">Hey yo RTE</h1>
-    </>
+    <div className="w-full min-h-screen grid items-center justify-items-center">
+      <TextInput />
+    </div>
   );
 }
 
